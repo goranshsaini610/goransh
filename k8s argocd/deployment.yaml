@@ -14,7 +14,8 @@ spec:
     spec: 
       containers: 
        - name: grdep
-         image: httpd
+         image: nginx
+         
          ports:
            - containerPort: 4000
 
